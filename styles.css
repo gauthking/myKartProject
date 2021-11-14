@@ -10,7 +10,6 @@
     align-items: center;
     background: linear-gradient(to right,rgb(84, 84, 179),rgb(55, 55, 192) );
     color: cornsilk;
-    width: auto;
 
 }
 
@@ -21,7 +20,7 @@
     font-weight: bolder;
     color: rgb(208, 221, 30);
     height: 2.5rem;
-    width: 7.2rem;
+    width: 8.5rem;
     border: solid 3px rgb(190, 199, 114);
    
 }
@@ -38,6 +37,7 @@
     color: white;
     padding: 2rem;
     display: block;
+
 }
 
 .nav2 ul li a:hover{
@@ -72,6 +72,8 @@ body{
     border-radius: 3px;
     overflow: scroll;
     -webkit-box-shadow: 0px 2px 9px 6px rgb(33, 64, 131);
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .container1 h2{
@@ -87,16 +89,16 @@ body{
     
 }
 .consoles h3{
-    margin: 3rem 0 0.8rem 2rem;
+    margin: 3rem 0rem 0.8rem 2rem;
     font-family:serif;
     
     
 }
 .consoles img{
-    margin: 0rem 2rem;
+    margin: 0rem 3rem;
     height: 10rem;
     border: solid 4px thistle;
-    
+    width: 67%;
 }
 
 
@@ -143,7 +145,8 @@ body{
     background-color: rgb(214, 214, 32,0.3);
     border-radius: 3px;
     -webkit-box-shadow: 0px 2px 9px 6px rgb(33, 64, 131);
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
     
 }
@@ -173,9 +176,10 @@ body{
 }
 
 .laptops img{
-    margin: 0rem 2rem;
+    margin: 0rem 1.5rem;
     height: 10rem;
     border: solid 4px thistle;
+    width: 80%;
     
 }
 
