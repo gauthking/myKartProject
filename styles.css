@@ -20,6 +20,9 @@
     font-family:fantasy;
     font-weight: bolder;
     color: rgb(208, 221, 30);
+    height: 2rem;
+    width: 8.5rem;
+    border: inset 3px rgb(190, 199, 114);
    
 }
 
