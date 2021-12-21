@@ -1,198 +1,170 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to right,rgb(84, 84, 179),rgb(55, 55, 192) );
-    color: cornsilk;
-
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(84, 84, 179), rgb(55, 55, 192));
+  color: cornsilk;
+  width: auto;
 }
 
-.headname{
-    font-size: 2rem;
-    margin: 1rem;
-    font-family:fantasy;
-    font-weight: bolder;
-    color: rgb(208, 221, 30);
-    height: 2.5rem;
-    width: 8.5rem;
-    border: solid 3px rgb(190, 199, 114);
-   
+.headname {
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: fantasy;
+  font-weight: bolder;
+  color: rgb(208, 221, 30);
+  height: 2.5rem;
+  width: 6.5rem;
+  border: solid 3px rgb(190, 199, 114);
 }
 
-.nav2 ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-
+.nav2 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.nav2 ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 2rem;
-    display: block;
-
+.nav2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+  display: block;
 }
 
-.nav2 ul li a:hover{
-    background: rgb(170, 172, 83);
+.nav2 ul li a:hover {
+  background: rgb(170, 172, 83);
 }
 
-body{
-    background-color: antiquewhite;
-
+body {
+  background: url("https://images.unsplash.com/photo-1538947151057-dfe933d688d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
 }
 
-
-
-.head1{
-    margin: 2rem 0 0 2rem;
-    height: 1.5rem;
-    width: 17em;
-    border:solid #c3d140;
-    background-color: rgb(206, 203, 49);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 3px 2px;
-    filter: drop-shadow(0 0 0.25rem rgb(255, 123, 0));
+.head1 {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid #c3d140;
+  background-color: rgb(206, 203, 49);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3px 2px;
+  filter: drop-shadow(0 0 0.25rem rgb(255, 123, 0));
 }
 
-
-.container1{
-    margin: 3rem 0.2rem 1rem 0.5rem;
-    border: solid 12px rgb(0, 153, 255,0.7);
-    height: 20rem;
-    width: auto;
-    background-color: rgb(214, 214, 32,0.3);
-    border-radius: 3px;
-    overflow: scroll;
-    -webkit-box-shadow: 0px 2px 9px 6px rgb(33, 64, 131);
-    overflow-x: scroll;
-    overflow-y: hidden;
+.container1 {
+  margin: 3rem 0.6rem 1rem 0.5rem;
+  border: solid 12px rgb(0, 153, 255, 0.7);
+  height: 20rem;
+  width: auto;
+  background-color: rgb(214, 214, 32, 0.3);
+  border-radius: 3px;
+  overflow: scroll;
+  -webkit-box-shadow: 0px 2px 9px 6px rgb(33, 64, 131);
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
-.container1 h2{
-    text-transform: uppercase;
-    margin-left: 1rem;
-    font-family: monospace;
-    font-weight: 900;
+.container1 h2 {
+  text-transform: uppercase;
+  margin-left: 1rem;
+  font-family: monospace;
+  font-weight: 900;
 }
 
-
-.images{
-    margin: 3px;
-    
+.images {
+  margin: 3px;
 }
-.consoles h3{
-    margin: 2rem 0rem 0.8rem 2rem;
-    font-family:serif;
-    
-    
+.consoles h3 {
+  margin: 2rem 0rem 0.8rem 2rem;
+  font-family: serif;
 }
-.consoles img{
-    margin: 0rem 3rem;
-    height: 10rem;
-    border: solid 4px thistle;
-    
+.consoles img {
+  margin: 0rem 3rem;
+  height: 10rem;
+  border: solid 4px thistle;
 }
 
-
-
-.links a{
-    margin-left: 5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: solid rgb(19, 132, 202,0.4);
-    background-color: rgb(119, 136, 153,0.2);
-    border-radius: 4px;
+.links a {
+  margin-left: 5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid rgb(19, 132, 202, 0.4);
+  background-color: rgb(119, 136, 153, 0.2);
+  border-radius: 4px;
 }
 
-.links a:hover{
-    background-color: blanchedalmond;
+.links a:hover {
+  background-color: blanchedalmond;
 }
 
-.container1 .consoles{
-    display: flex;
-    flex-direction: row;
-
+.container1 .consoles {
+  display: flex;
+  flex-direction: row;
 }
 
-
-.consoles .items{
-    margin-right: 3rem;
-    margin-left: 18px;
-    height: 17rem;
-    width: 15rem;
-    background-color: rgb(194, 189, 126,0.5);
-    border-radius: 10px;
-
+.consoles .items {
+  margin-right: 3rem;
+  margin-left: 18px;
+  height: 17rem;
+  width: 15rem;
+  background-color: rgb(194, 189, 126, 0.5);
+  border-radius: 10px;
 }
 
-.consoles .items:hover{
-    background-color: rgb(135, 202, 222,0.5);
+.consoles .items:hover {
+  background-color: rgb(135, 202, 222, 0.5);
 }
 
-.container2{
-    margin: 2rem 0.2rem 1rem 0.5rem;
-    border: solid 12px rgb(0, 153, 255,0.7);
-    height: 20rem;
-    width: auto;
-    background-color: rgb(214, 214, 32,0.3);
-    border-radius: 3px;
-    -webkit-box-shadow: 0px 2px 9px 6px rgb(33, 64, 131);
-    overflow-x: scroll;
-    overflow-y: hidden;
-
-    
+.container2 {
+  margin: 2rem 0.6rem 1rem 0.5rem;
+  border: solid 12px rgb(0, 153, 255, 0.7);
+  height: 20rem;
+  width: auto;
+  background-color: rgb(214, 214, 32, 0.3);
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 9px 6px rgb(33, 64, 131);
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
-
-.container2 h2{
-    text-transform: uppercase;
-    margin-left: 1rem;
-    font-family: monospace;
-    font-weight: 900;
+.container2 h2 {
+  text-transform: uppercase;
+  margin-left: 1rem;
+  font-family: monospace;
+  font-weight: 900;
 }
 
-.container2 .laptops{
-    display: flex;
-    flex-direction: row;
-
+.container2 .laptops {
+  display: flex;
+  flex-direction: row;
 }
 
-.laptops .items1{
-    margin-right: 3rem;
-    margin-left: 18px;
-    height: 17rem;
-    width: 15rem;
-    background-color: rgb(194, 189, 126,0.5);
-    border-radius: 10px;
-
+.laptops .items1 {
+  margin-right: 3rem;
+  margin-left: 18px;
+  height: 17rem;
+  width: 15rem;
+  background-color: rgb(194, 189, 126, 0.5);
+  border-radius: 10px;
 }
 
-.laptops img{
-    margin: 0rem 1.5rem;
-    height: 10rem;
-    border: solid 4px thistle;
-    
-    
+.laptops img {
+  margin: 0rem 1.5rem;
+  height: 10rem;
+  border: solid 4px thistle;
 }
 
-.laptops h3{
-    margin: 2rem 0 0.8rem 2rem;
-    font-family:serif;
+.laptops h3 {
+  margin: 2rem 0 0.8rem 2rem;
+  font-family: serif;
 }
 
-.laptops .items1:hover{
-    background-color: rgb(135, 202, 222,0.5);
+.laptops .items1:hover {
+  background-color: rgb(135, 202, 222, 0.5);
 }
-
-
-
-
