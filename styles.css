@@ -247,3 +247,13 @@ body {
 
 .accessories .items2:hover {
   background-color: rgb(135, 202, 222, 0.5);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: rgb(87, 72, 72);
+}
